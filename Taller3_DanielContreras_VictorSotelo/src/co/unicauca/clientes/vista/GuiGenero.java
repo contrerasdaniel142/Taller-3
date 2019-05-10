@@ -4,15 +4,8 @@ import co.unicauca.clientes.modelo.ClientesDB;
 
 import java.util.Observable;
 
-/**
- *
- * @author Cuatro
- */
 public class GuiGenero extends javax.swing.JFrame implements java.util.Observer {
 
-    /**
-     * Creates new form GuiGenero
-     */
     public GuiGenero(int h, int v) {
         initComponents();
         setSize(350, 350);
